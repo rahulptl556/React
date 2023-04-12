@@ -29,7 +29,7 @@ function Card({id,image,info,price,name,removeTour}){
                 </div>
             </div>
 
-            <button className="btn-red" on Click = {() => removeTour(id)}>
+            <button className="btn-red" onClick = {() => removeTour(id)}>
                 Not Intrested
             </button>
 
